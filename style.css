@@ -13,6 +13,7 @@ body{
 header{
     display: flex; /*#um ao lado do outro*/
     align-items: center; /* alinhados na vertical*/
+    margin-bottom: 40px;
 }
 
 header img{
@@ -23,4 +24,10 @@ header img{
 header h1{
     font-size: 40px;
     font-weight: bold;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
 }
